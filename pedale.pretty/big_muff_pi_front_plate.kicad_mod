@@ -54,6 +54,16 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -0.1 0)
+		(end 0.1 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6094f1e-5162-4c92-b505-9e2c0ec99070")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -69,7 +79,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/pedale.pretty/big_muff_pi_front_plate.step"
 		(offset
-			(xyz -40 45 25)
+			(xyz 0 0 25)
 		)
 		(scale
 			(xyz 1 1 1)
