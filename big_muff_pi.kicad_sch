@@ -2637,7 +2637,7 @@
 					)
 				)
 			)
-			(property "Footprint" "pedale:switch_DPDT"
+			(property "Footprint" "pedale:foot_switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2917,28 +2917,6 @@
 		)
 		(uuid ed94a182-88a7-4d52-82b6-a581a7ad4ab6)
 	)
-	(text "MOŽDA DODAJ ŠRAFOVE I SA STRANE, BOLJA ROBUSTNOST\n"
-		(exclude_from_sim no)
-		(at 121.666 117.856 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "3b50ee7d-e416-4b66-a829-0e677eecc63b")
-	)
-	(text "BAKAR U FRONT PLATE-u KAO UKRAS\nFARADEJEV KAVEZ~"
-		(exclude_from_sim no)
-		(at 112.014 148.59 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "52f5abc0-2e1b-4c2a-9408-8f1998d4bf6d")
-	)
 	(text "Mounting and estetics"
 		(exclude_from_sim no)
 		(at 15.494 85.344 0)
@@ -2990,17 +2968,6 @@
 			(justify left)
 		)
 		(uuid "a2c0c4e1-03f0-4aad-adcd-a614bcafa4b6")
-	)
-	(text "DOUBLE CHECK SWITCH"
-		(exclude_from_sim no)
-		(at 124.206 101.092 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "f0b75152-5093-40b6-86ba-0d8f29df293b")
 	)
 	(junction
 		(at 232.41 48.895)
@@ -6101,7 +6068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pedale:switch_DPDT"
+		(property "Footprint" "pedale:foot_switch"
 			(at 222.25 110.49 0)
 			(effects
 				(font
@@ -7012,7 +6979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pedale:switch_DPDT"
+		(property "Footprint" "pedale:foot_switch"
 			(at 222.25 127 0)
 			(effects
 				(font
@@ -7040,22 +7007,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "44cb3a38-e699-44e8-b9f0-769440003bc8")
+			(uuid "44cb3a38-e699-44e8-b9f0-769440003bc9")
 		)
 		(pin "1"
-			(uuid "d03049ff-8875-468a-a848-1987ff2483da")
+			(uuid "d03049ff-8875-468a-a848-1987ff2483db")
 		)
 		(pin "3"
-			(uuid "56d48133-e98c-4709-a791-2e5641a83ac5")
+			(uuid "56d48133-e98c-4709-a791-2e5641a83ac6")
 		)
 		(pin "6"
-			(uuid "a74a4a83-d871-496b-81b9-bbf2690ad110")
+			(uuid "a74a4a83-d871-496b-81b9-bbf2690ad111")
 		)
 		(pin "4"
-			(uuid "5a3d6231-9488-4e0e-99c9-04ec847852b6")
+			(uuid "5a3d6231-9488-4e0e-99c9-04ec847852b7")
 		)
 		(pin "5"
-			(uuid "10995bfc-c5c0-46d6-a100-f6a999d4b895")
+			(uuid "10995bfc-c5c0-46d6-a100-f6a999d4b896")
 		)
 		(instances
 			(project ""

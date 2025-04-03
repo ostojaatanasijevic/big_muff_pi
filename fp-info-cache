@@ -1,4 +1,4 @@
-22666189512815
+27898221889874
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99547,6 +99547,13 @@ big_muff_pi_front_plate
 0
 0
 pedale
+boss_DS1_front_plate
+
+
+0
+0
+0
+pedale
 floating_green_led
 
 
@@ -99575,6 +99582,13 @@ floating_red_led
 0
 0
 pedale
+foot_switch
+C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+pedale
 plated_pot_hole
 Mounting Hole 6.5mm
 mounting hole 6.5mm
@@ -99597,6 +99611,13 @@ switch DPDT
 6
 pedale
 top_screw
+
+
+0
+0
+0
+pedale
+tube_screamer_front_plate
 
 
 0
