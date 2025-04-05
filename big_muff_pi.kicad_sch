@@ -8,7 +8,7 @@
 		(title "Big Muff Pi")
 	)
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_MountingPin"
+		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names
 				(hide yes)
 			)
@@ -23,13 +23,12 @@
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack_MountingPin"
-				(at 1.27 -6.35 0)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -50,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Barrel Jack with a mounting pin"
+			(property "Description" "DC Barrel Jack with an internal switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Barrel_Jack_MountingPin_0_1"
+			(symbol "Barrel_Jack_Switch_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -125,6 +124,18 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start 3.683 3.175)
 					(end -3.302 1.905)
@@ -148,46 +159,20 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Barrel_Jack_MountingPin_1_1"
 				(polyline
 					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -199,6 +184,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -227,27 +230,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:NMJ6HHD2"
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 11.43 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "NMJ6HHD2"
-				(at 0 8.89 0)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HHD2_Horizontal"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -256,7 +263,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hhd2"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -265,7 +272,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with half threaded nose and offset PCB pins"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -274,7 +281,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones connector neutrik"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -283,7 +298,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Jack*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -292,240 +307,42 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMJ6HHD2_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "Conn_01x01_Socket_1_1"
 				(polyline
 					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+						(xy -1.27 0) (xy -0.508 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 4.826) (xy -1.016 4.318)
-					)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -0.254) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -5.334) (xy 2.032 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 6.35)
-					(end -5.08 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NMJ6HHD2_1_1"
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "RN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2046,6 +1863,315 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "pedale:Jack_6.35"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jack_6.35"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "pedale:Jack_6.35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jack_6.35_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.826) (xy -1.016 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 6.35)
+					(end -5.08 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jack_6.35_1_1"
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pedale:big_muff_pi_front_panel"
 			(pin_names
 				(offset 1.016)
@@ -2371,91 +2497,6 @@
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pedale:floating_pot_knob"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "floating_pot_knob"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "pedale:floating_pot_knob"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "floating_pot_knob_0_1"
-				(polyline
-					(pts
-						(xy 1.016 -2.54) (xy -1.016 -2.54) (xy -1.016 2.54) (xy 1.016 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2970,6 +3011,12 @@
 		(uuid "a2c0c4e1-03f0-4aad-adcd-a614bcafa4b6")
 	)
 	(junction
+		(at 49.53 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00c30570-7aa3-4076-a087-f544c2b60461")
+	)
+	(junction
 		(at 232.41 48.895)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3034,6 +3081,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45f4d789-2d22-4082-9cdf-7fe366ccce8d")
+	)
+	(junction
+		(at 41.91 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "473524cc-0ecd-4c7c-8845-8bf3f1ee03e4")
 	)
 	(junction
 		(at 264.16 62.23)
@@ -3200,10 +3253,6 @@
 	(no_connect
 		(at 227.33 113.03)
 		(uuid "4dfef362-5b54-41a8-9078-114de8255d01")
-	)
-	(no_connect
-		(at 27.94 176.53)
-		(uuid "7e748149-4ad6-468d-b929-32149aa95e40")
 	)
 	(wire
 		(pts
@@ -3567,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 187.96) (xy 41.91 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371a6991-a83a-4904-9fa3-1e4be078a640")
+	)
+	(wire
+		(pts
 			(xy 162.56 46.99) (xy 162.56 54.61)
 		)
 		(stroke
@@ -3587,7 +3646,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 186.69) (xy 49.53 189.23)
+			(xy 49.53 186.69) (xy 49.53 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3644,6 +3703,16 @@
 			(type default)
 		)
 		(uuid "3e6d3cce-76a1-4a27-a1a2-9fd7ff74dcbc")
+	)
+	(wire
+		(pts
+			(xy 41.91 168.91) (xy 41.91 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5a4f30-582b-4f73-a44e-efa91801578d")
 	)
 	(wire
 		(pts
@@ -3837,6 +3906,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 187.96) (xy 49.53 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b52ca7-dd30-4cb0-b82a-a3882d20ee6e")
+	)
+	(wire
+		(pts
 			(xy 162.56 54.61) (xy 171.45 54.61)
 		)
 		(stroke
@@ -3914,6 +3993,16 @@
 			(type default)
 		)
 		(uuid "703ee7ac-15e9-4e29-8d29-46deceebe721")
+	)
+	(wire
+		(pts
+			(xy 33.02 171.45) (xy 31.75 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bce382-13d4-4f11-8d26-f28a63961bea")
 	)
 	(wire
 		(pts
@@ -4497,6 +4586,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 168.91) (xy 41.91 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8eff182-5732-4ca9-9928-6473b8a6f0b6")
+	)
+	(wire
+		(pts
 			(xy 214.63 55.88) (xy 224.79 55.88)
 		)
 		(stroke
@@ -4647,6 +4746,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 176.53) (xy 49.53 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69ffab8-fb26-43c0-8064-b35268a37fdd")
+	)
+	(wire
+		(pts
 			(xy 111.76 186.69) (xy 111.76 191.77)
 		)
 		(stroke
@@ -4677,7 +4786,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 166.37) (xy 35.56 166.37)
+			(xy 53.34 166.37) (xy 31.75 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5132,6 +5241,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 33.02 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012b1d70-9935-43aa-8bfd-f379947188ad")
+		(property "Reference" "#GND031"
+			(at 35.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 31.115 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "512bd256-9f35-40c9-ac9e-45cfe8996608")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "#GND031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 57.15 176.53 180)
 		(unit 1)
@@ -5500,71 +5675,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pedale:floating_pot_knob")
-		(at 198.12 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "078a5bd7-9bb5-4285-8b8f-4b7a673dfeb1")
-		(property "Reference" "RV3"
-			(at 200.66 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "floating_pot_knob"
-			(at 200.66 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "pedale:floating_pot_knob"
-			(at 198.12 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 198.12 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 35.56 66.04 0)
 		(unit 1)
@@ -5623,70 +5733,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "#GND017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pedale:floating_pot_knob")
-		(at 130.175 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c15317e-84e4-45fd-a647-ab5c655be4b8")
-		(property "Reference" "RV1"
-			(at 133.985 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "floating_pot_knob"
-			(at 133.985 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pedale:floating_pot_knob"
-			(at 130.175 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.175 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 130.175 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -6043,6 +6089,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 24.13 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a0f9e09-0f7c-4230-9f7b-57d076dc61e9")
+		(property "Reference" "J9"
+			(at 24.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 24.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pedale:BarrelJack"
+			(at 25.4 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 24.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1626a576-ecd3-4982-8eb6-65f11062a90f")
+		)
+		(pin "1"
+			(uuid "306db808-ede7-42a3-8333-fdc15239ddfa")
+		)
+		(pin "2"
+			(uuid "114f1222-e615-4d01-a441-e1d419488ba5")
+		)
+		(instances
+			(project ""
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedale:pedala_switch")
 		(at 222.25 110.49 0)
 		(unit 2)
@@ -6068,7 +6185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pedale:foot_switch"
+		(property "Footprint" "pedale:foot_switch_tht_and_floating"
 			(at 222.25 110.49 0)
 			(effects
 				(font
@@ -6723,72 +6840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 49.53 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b2ce18f-91ff-4d7b-a20e-e29613bdf426")
-		(property "Reference" "#GND029"
-			(at 49.53 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 49.53 187.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a93772a9-b7dc-443e-b9ba-6d342b0626e1")
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "#GND029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 172.72 36.83 90)
 		(unit 1)
@@ -6953,6 +7004,87 @@
 		)
 	)
 	(symbol
+		(lib_id "pedale:Jack_6.35")
+		(at 241.3 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37382e47-0694-42a6-8358-7a33c683dd1c")
+		(property "Reference" "J2"
+			(at 248.92 132.0801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jack_6.35"
+			(at 248.92 129.5401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "pedale:Jack_6.35mm"
+			(at 241.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 241.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SN"
+			(uuid "7f5f99d9-d341-4059-838a-42a8c0891ec6")
+		)
+		(pin "R"
+			(uuid "f87f1ed2-f476-45a9-9800-1b95f0760980")
+		)
+		(pin "RN"
+			(uuid "c2ef5cf5-022c-4495-a98c-b12f184bdc72")
+		)
+		(pin "T"
+			(uuid "904cbd0b-600f-47c9-9bb8-417efd5aadd3")
+		)
+		(pin "TN"
+			(uuid "6303c239-4030-4f6f-930c-4918a6b8e5de")
+		)
+		(pin "S"
+			(uuid "a934f54e-311a-436d-82f3-03873e12768a")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedale:pedala_switch")
 		(at 222.25 127 0)
 		(mirror y)
@@ -6979,7 +7111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pedale:foot_switch"
+		(property "Footprint" "pedale:foot_switch_tht_and_floating"
 			(at 222.25 127 0)
 			(effects
 				(font
@@ -7360,71 +7492,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 35.56 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b537c33-fb49-46ad-8844-1668fe764cdc")
-		(property "Reference" "#GND03"
-			(at 38.1 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 4.445 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36521aaa-aed9-4bbd-ac0e-4942d8ac8669")
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "#GND03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 165.1 97.79 90)
 		(unit 1)
@@ -7632,86 +7699,6 @@
 			(project ""
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "SIM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:NMJ6HHD2")
-		(at 25.4 57.15 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e9ad0d8-9d10-4efe-82a6-d5a34f95ff31")
-		(property "Reference" "J1"
-			(at 23.495 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMJ6HHD2"
-			(at 23.495 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HHD2_Horizontal"
-			(at 25.4 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hhd2"
-			(at 25.4 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with half threaded nose and offset PCB pins"
-			(at 25.4 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "3e041d0e-58f0-437d-b5d1-02494ef3e402")
-		)
-		(pin "SN"
-			(uuid "c8407d7b-9c3d-48f8-a5f0-97f4b7b0f1dd")
-		)
-		(pin "T"
-			(uuid "f72d8ce8-381a-4dbd-94ed-74e58bbd70a6")
-		)
-		(pin "TN"
-			(uuid "6740bb78-d862-4c98-a004-a5b5c35f590b")
-		)
-		(pin "R"
-			(uuid "a12046fd-4c43-4ded-80bc-c7263325bb2e")
-		)
-		(pin "RN"
-			(uuid "32d57538-5882-48ee-9601-4054bbaf8650")
-		)
-		(instances
-			(project ""
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8007,6 +7994,71 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 34.29 187.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eb40da1-2c21-4275-8ff0-cfabc05dcdfd")
+		(property "Reference" "J8"
+			(at 31.496 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 34.925 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 34.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 34.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f63091e0-b83b-4dab-9695-413c336a6ed9")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8439,71 +8491,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pedale:floating_pot_knob")
-		(at 243.205 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a060124-0f44-4d72-bec1-f37e897e267f")
-		(property "Reference" "RV2"
-			(at 245.745 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "floating_pot_knob"
-			(at 245.745 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "pedale:floating_pot_knob"
-			(at 243.205 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.205 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 243.205 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -10164,6 +10151,88 @@
 		)
 	)
 	(symbol
+		(lib_id "pedale:Jack_6.35")
+		(at 25.4 57.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "969866af-5c8c-4630-a7d9-f3d77eda9447")
+		(property "Reference" "J1"
+			(at 17.78 57.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jack_6.35"
+			(at 17.78 54.6101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "pedale:Jack_6.35mm"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SN"
+			(uuid "bc9c5b92-bd9e-4cb9-8477-40f9b105d379")
+		)
+		(pin "R"
+			(uuid "58255887-ee7e-43af-8853-2ef9b073c4a5")
+		)
+		(pin "RN"
+			(uuid "9d8b44bd-be39-4a0c-b5eb-6db554c9fbf6")
+		)
+		(pin "T"
+			(uuid "e4efb0b8-459d-4fd7-9425-e3b3cc2855a9")
+		)
+		(pin "TN"
+			(uuid "5d3d302e-90a8-4480-8a6f-27f13579cc33")
+		)
+		(pin "S"
+			(uuid "073a1d24-77ec-4eca-ae6f-0b3a30b0a872")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 181.61 114.3 90)
 		(unit 1)
@@ -10648,6 +10717,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10839,6 +10909,71 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 34.29 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b63544f5-1710-429f-93fd-fd43042ee180")
+		(property "Reference" "J7"
+			(at 31.496 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 34.925 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "251a57a7-6d7c-4b90-9147-23dd23943b59")
+		)
+		(instances
+			(project ""
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11200,77 +11335,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_MountingPin")
-		(at 27.94 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1b0e894-f30b-4864-a32c-066e12a098c6")
-		(property "Reference" "J6"
-			(at 27.94 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack_MountingPin"
-			(at 27.94 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
-			(at 29.21 169.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 169.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with a mounting pin"
-			(at 27.94 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "5d7b21a3-2fdf-43e0-8ece-6594611aba4c")
-		)
-		(pin "2"
-			(uuid "f78f7075-4770-4f19-a55e-d095ed996924")
-		)
-		(pin "1"
-			(uuid "85a1510b-db3b-481c-9d07-172c7d640faf")
-		)
-		(instances
-			(project ""
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12526,85 +12590,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "RV6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:NMJ6HHD2")
-		(at 241.3 132.08 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea9cd217-8f87-4fb3-b9c0-575f24aa215a")
-		(property "Reference" "J2"
-			(at 242.824 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMJ6HHD2"
-			(at 243.205 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HHD2_Horizontal"
-			(at 241.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hhd2"
-			(at 241.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with half threaded nose and offset PCB pins"
-			(at 241.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "a8ab62a6-9d9d-4306-82b4-8eb1af3edb63")
-		)
-		(pin "SN"
-			(uuid "ef144d28-3519-4a94-b98e-7d619b1543a3")
-		)
-		(pin "T"
-			(uuid "e2b76d3f-fef3-4562-96f6-f96c1a0e930a")
-		)
-		(pin "TN"
-			(uuid "a41af932-4017-4f7d-aabb-47fb24680b66")
-		)
-		(pin "R"
-			(uuid "62c38493-da8f-49f4-acac-883ccc68b127")
-		)
-		(pin "RN"
-			(uuid "62192d45-45dd-4d0f-899a-3964969af768")
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "J2")
 					(unit 1)
 				)
 			)
