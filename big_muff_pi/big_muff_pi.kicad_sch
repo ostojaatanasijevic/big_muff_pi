@@ -1966,6 +1966,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3400A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:AO3401A"
 			(pin_names
 				(hide yes)
@@ -4074,6 +4372,18 @@
 		(uuid "299c3aa9-d738-46e4-83a8-033d8fcd96d0")
 	)
 	(junction
+		(at 8.89 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b20c962-f66f-47e1-a490-5e045e72edd2")
+	)
+	(junction
+		(at -24.13 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c64de6c-3b15-4768-ac3c-d0bc8dfccfd1")
+	)
+	(junction
 		(at 162.56 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4092,10 +4402,22 @@
 		(uuid "3c2b4689-faf9-4da6-a1c9-115f2305b8ff")
 	)
 	(junction
+		(at -34.29 320.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "452f82f3-e5a2-45ac-9ae4-cbff88b7cfac")
+	)
+	(junction
 		(at 149.86 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45f4d789-2d22-4082-9cdf-7fe366ccce8d")
+	)
+	(junction
+		(at -24.13 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b5d3407-3796-4b43-a92a-262b41d78b67")
 	)
 	(junction
 		(at -73.66 240.03)
@@ -4120,6 +4442,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a976223-1963-4607-a1a6-3ea5a2759796")
+	)
+	(junction
+		(at 8.89 320.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6c91f3-9181-45ec-af85-c89809dc7cdf")
 	)
 	(junction
 		(at 214.63 48.26)
@@ -4188,6 +4516,12 @@
 		(uuid "9236b416-86de-4d48-9748-c59ac2aba0b3")
 	)
 	(junction
+		(at -35.56 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93b2382a-9097-4094-90cb-2165d68840eb")
+	)
+	(junction
 		(at -60.96 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4248,6 +4582,12 @@
 		(uuid "c3c27bff-1806-4431-aee9-0f64e40cf91a")
 	)
 	(junction
+		(at -24.13 320.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee0fc1c-1283-48d6-8b55-f3e85eb7d0c9")
+	)
+	(junction
 		(at 232.41 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4270,6 +4610,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebf61f62-f1c8-4d69-870c-73a78e576553")
+	)
+	(junction
+		(at 8.89 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f611619b-6a93-4a0f-9426-51b46e99d8e5")
 	)
 	(junction
 		(at 39.37 52.07)
@@ -4356,6 +4702,16 @@
 			(type default)
 		)
 		(uuid "085fec81-8370-4102-b998-e3531ba05912")
+	)
+	(wire
+		(pts
+			(xy -38.1 320.04) (xy -34.29 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f7b76d-2751-474c-b58e-c343e908d8fe")
 	)
 	(wire
 		(pts
@@ -4629,6 +4985,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 278.13) (xy 8.89 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281c9314-927e-4592-98e7-b9a2191d605d")
+	)
+	(wire
+		(pts
 			(xy 193.04 229.87) (xy 187.96 229.87)
 		)
 		(stroke
@@ -4669,6 +5035,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 320.04) (xy 8.89 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a97da3-a312-4135-8820-1256b362ccb7")
+	)
+	(wire
+		(pts
 			(xy 59.69 52.07) (xy 62.23 52.07)
 		)
 		(stroke
@@ -4686,6 +5062,16 @@
 			(type default)
 		)
 		(uuid "31882240-41b7-4a42-bac8-ecc0054db404")
+	)
+	(wire
+		(pts
+			(xy 25.4 289.56) (xy 25.4 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3256e869-721f-4dc4-9f93-2b98b41d1c93")
 	)
 	(wire
 		(pts
@@ -4769,6 +5155,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 307.34) (xy 22.86 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3a3cbf-7496-47f8-802e-5bcd3581433e")
+	)
+	(wire
+		(pts
 			(xy 162.56 66.04) (xy 162.56 74.295)
 		)
 		(stroke
@@ -4819,6 +5215,16 @@
 	)
 	(wire
 		(pts
+			(xy 8.89 278.13) (xy 8.89 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465dcb55-d42e-43b9-9cdb-0c7eb37e251d")
+	)
+	(wire
+		(pts
 			(xy 198.12 17.78) (xy 194.31 17.78)
 		)
 		(stroke
@@ -4836,6 +5242,16 @@
 			(type default)
 		)
 		(uuid "4a8823ed-d27b-445f-97ed-ed87850a730c")
+	)
+	(wire
+		(pts
+			(xy -24.13 320.04) (xy 8.89 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e406df0-8f5f-4782-9846-5b74ad16e5c1")
 	)
 	(wire
 		(pts
@@ -4949,6 +5365,16 @@
 	)
 	(wire
 		(pts
+			(xy -38.1 278.13) (xy -35.56 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669b465e-7e51-4c72-a5e3-806fccdd8ee2")
+	)
+	(wire
+		(pts
 			(xy 10.16 259.08) (xy 20.32 259.08)
 		)
 		(stroke
@@ -5059,7 +5485,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 236.22) (xy 12.7 236.22)
+			(xy 16.51 236.22) (xy 12.7 236.22)
 		)
 		(stroke
 			(width 0)
@@ -5096,6 +5522,16 @@
 			(type default)
 		)
 		(uuid "74d1b127-bf2b-44b2-ba95-40b10340323f")
+	)
+	(wire
+		(pts
+			(xy 22.86 307.34) (xy 22.86 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7595cac8-96d8-4f08-9a8e-3c5b3c906802")
 	)
 	(wire
 		(pts
@@ -5149,6 +5585,16 @@
 	)
 	(wire
 		(pts
+			(xy -24.13 313.69) (xy -24.13 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e58962f-bb21-4a4c-baaf-dcd0ef3a063f")
+	)
+	(wire
+		(pts
 			(xy 160.02 115.57) (xy 154.94 115.57)
 		)
 		(stroke
@@ -5179,6 +5625,16 @@
 	)
 	(wire
 		(pts
+			(xy 8.89 298.45) (xy 13.97 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827d4baa-5790-438c-ab60-c70730be4091")
+	)
+	(wire
+		(pts
 			(xy 39.37 57.15) (xy 48.26 57.15)
 		)
 		(stroke
@@ -5206,6 +5662,16 @@
 			(type default)
 		)
 		(uuid "84f84b35-4f46-451e-9fe2-3a333368eb9c")
+	)
+	(wire
+		(pts
+			(xy -24.13 278.13) (xy 8.89 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b2d224-087d-4a68-a1a3-a2af5482b544")
 	)
 	(wire
 		(pts
@@ -5269,6 +5735,16 @@
 	)
 	(wire
 		(pts
+			(xy 8.89 302.26) (xy 8.89 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbf7630-42d9-4c8c-94de-e10bdc9de8a6")
+	)
+	(wire
+		(pts
 			(xy 175.26 229.87) (xy 175.26 242.57)
 		)
 		(stroke
@@ -5276,6 +5752,16 @@
 			(type default)
 		)
 		(uuid "8c14e21f-5e35-4245-9488-fa56882cd279")
+	)
+	(wire
+		(pts
+			(xy 8.89 298.45) (xy 8.89 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d264bac-65bb-48cc-824f-dd5fb29978b3")
 	)
 	(wire
 		(pts
@@ -5379,6 +5865,16 @@
 	)
 	(wire
 		(pts
+			(xy 8.89 320.04) (xy 8.89 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9781b477-98b4-4cc1-9c76-8e8ea9f96c74")
+	)
+	(wire
+		(pts
 			(xy 77.47 57.15) (xy 77.47 59.69)
 		)
 		(stroke
@@ -5439,6 +5935,16 @@
 	)
 	(wire
 		(pts
+			(xy -35.56 278.13) (xy -24.13 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1bcd725-84cd-4c43-9a9a-42445bb7a322")
+	)
+	(wire
+		(pts
 			(xy 138.43 121.92) (xy 139.7 121.92)
 		)
 		(stroke
@@ -5459,6 +5965,16 @@
 	)
 	(wire
 		(pts
+			(xy -24.13 284.48) (xy -24.13 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8bf2be7-303b-4034-ad2f-884169a9dfd9")
+	)
+	(wire
+		(pts
 			(xy 214.63 27.94) (xy 215.9 27.94)
 		)
 		(stroke
@@ -5469,6 +5985,16 @@
 	)
 	(wire
 		(pts
+			(xy -24.13 298.45) (xy -24.13 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc9d9cd-b27d-4761-b0ee-b1c519a84e0a")
+	)
+	(wire
+		(pts
 			(xy 62.23 34.29) (xy 62.23 45.72)
 		)
 		(stroke
@@ -5476,6 +6002,16 @@
 			(type default)
 		)
 		(uuid "af9a3aa9-24fe-4493-933a-083231260656")
+	)
+	(wire
+		(pts
+			(xy -35.56 308.61) (xy -35.56 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b000a140-4638-48a8-b4d4-5f7617b6bf3e")
 	)
 	(wire
 		(pts
@@ -5599,6 +6135,16 @@
 	)
 	(wire
 		(pts
+			(xy -31.75 289.56) (xy -34.29 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be278fba-a568-48be-bbca-18eff4ddd5c5")
+	)
+	(wire
+		(pts
 			(xy 223.52 20.32) (xy 224.79 20.32)
 		)
 		(stroke
@@ -5606,6 +6152,16 @@
 			(type default)
 		)
 		(uuid "be4ae75e-7651-4ad5-8bb2-6bb26650f65b")
+	)
+	(wire
+		(pts
+			(xy -31.75 308.61) (xy -35.56 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb1b3d4-e5ef-4046-8d56-0a926a79f822")
 	)
 	(wire
 		(pts
@@ -5656,6 +6212,16 @@
 			(type default)
 		)
 		(uuid "c8161a97-b79b-422c-be4c-d759ced9405d")
+	)
+	(wire
+		(pts
+			(xy -34.29 320.04) (xy -24.13 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81d00ba-88dc-4e10-acc0-335f0409559b")
 	)
 	(wire
 		(pts
@@ -5819,6 +6385,16 @@
 	)
 	(wire
 		(pts
+			(xy -24.13 303.53) (xy -24.13 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5738296-b2aa-4e7c-90f2-6db2a5efd451")
+	)
+	(wire
+		(pts
 			(xy 162.56 250.19) (xy 162.56 255.27)
 		)
 		(stroke
@@ -5889,7 +6465,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 231.14) (xy 12.7 231.14)
+			(xy 16.51 231.14) (xy 12.7 231.14)
 		)
 		(stroke
 			(width 0)
@@ -5979,6 +6555,16 @@
 	)
 	(wire
 		(pts
+			(xy -34.29 289.56) (xy -34.29 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10020a8-8e7e-4940-871e-fa51f55c92f2")
+	)
+	(wire
+		(pts
 			(xy 171.45 17.78) (xy 171.45 27.94)
 		)
 		(stroke
@@ -5986,6 +6572,16 @@
 			(type default)
 		)
 		(uuid "f52d053b-f949-495f-92db-8bd724eed673")
+	)
+	(wire
+		(pts
+			(xy 16.51 289.56) (xy 25.4 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5923822-f1a0-4cb5-8a2a-060a12538f61")
 	)
 	(wire
 		(pts
@@ -6049,7 +6645,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 231.14) (xy 41.91 231.14)
+			(xy -19.05 298.45) (xy -24.13 298.45)
 		)
 		(stroke
 			(width 0)
@@ -6129,6 +6725,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CONN+"
+		(shape output)
+		(at 16.51 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c9c14b4-fe4a-464c-9ae4-20a3d1bca795")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.3291 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CONN+"
+		(shape input)
+		(at -38.1 278.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b047d33-d001-4610-8ae9-8c5ee14fc928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -47.9191 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6419,6 +7059,28 @@
 			)
 		)
 	)
+	(global_label "CONN-"
+		(shape input)
+		(at -38.1 320.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be23f9bd-3d3e-4274-a65e-1d7263941cd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -47.9191 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "REG_IN"
 		(shape output)
 		(at -40.64 209.55 0)
@@ -6432,6 +7094,28 @@
 		(uuid "c246ce80-6b54-4b6e-b53b-a51a2aa0e0b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -31.0629 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CONN-"
+		(shape output)
+		(at 16.51 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb7ab641-1bd2-439c-a7f3-5eab7ed48905")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.3291 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +7171,7 @@
 	)
 	(global_label "REG_IN"
 		(shape output)
-		(at 46.99 231.14 0)
+		(at -19.05 298.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6497,7 +7181,7 @@
 		)
 		(uuid "df4d1f31-de12-4030-b22a-7277ec5db803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.5671 231.14 0)
+			(at -9.4729 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,72 +7210,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 13.97 236.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "012b1d70-9935-43aa-8bfd-f379947188ad")
-		(property "Reference" "#GND031"
-			(at 16.51 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 12.065 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 13.97 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 13.97 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 13.97 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "512bd256-9f35-40c9-ac9e-45cfe8996608")
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "#GND031")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -11233,6 +11851,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 11.43 289.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8352193a-3cd2-414a-bb33-19c0e82e60fe")
+		(property "Reference" "Q13"
+			(at 3.81 288.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 3.81 290.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 6.35 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 6.35 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 11.43 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 11.43 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4a85c9c9-3ff7-4e35-a3e6-5895ca64530c")
+		)
+		(pin "2"
+			(uuid "97e57c7b-5189-4432-8639-3855fff86c74")
+		)
+		(pin "1"
+			(uuid "41fc1731-b393-411e-8375-53f0386ced88")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 175.26 17.78 0)
 		(mirror y)
@@ -11955,6 +12658,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at -26.67 289.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e7001c-3843-46c1-853c-26a9ee144e17")
+		(property "Reference" "Q8"
+			(at -19.05 288.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at -19.05 290.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at -21.59 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at -21.59 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at -26.67 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at -26.67 289.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "778fc601-b98d-436c-bf59-f1b4ffb971cc")
+		)
+		(pin "3"
+			(uuid "c136392c-14ba-4363-8337-3f2737801213")
+		)
+		(pin "2"
+			(uuid "5145e12a-1665-42be-a8e1-67b38fdf48f3")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedale:Jack_6.35")
 		(at 25.4 57.15 0)
 		(mirror x)
@@ -12177,34 +12965,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 38.1 231.14 180)
+		(lib_id "Simulation_SPICE:0")
+		(at 13.97 298.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a58bd5fb-e109-43f6-acba-d1d17efcc711")
-		(property "Reference" "D7"
-			(at 42.672 229.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 34.544 229.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 38.1 226.695 0)
+		(uuid "a22cd51b-24a0-41a0-8c7b-d09c250e8c14")
+		(property "Reference" "#GND025"
+			(at 16.51 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,8 +12982,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 38.1 231.14 0)
+		(property "Value" "0"
+			(at 12.7 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,68 +13010,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 231.14 0)
+			(at 13.97 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 38.1 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 38.1 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/home/ostoja/spice_models/diode/1N4148.lib"
-			(at 38.1 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "1N4148"
-			(at 38.1 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2128"
-			(at 38.1 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "f281a69c-e395-4cd0-8fa2-d6186e1a74fd")
-		)
-		(pin "2"
-			(uuid "e369d5fd-bfa5-4de8-903c-827ea67bfb4a")
+			(uuid "fca45154-d2c3-40e0-8576-ddfd651f1e1c")
 		)
 		(instances
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "D7")
+					(reference "#GND025")
 					(unit 1)
 				)
 			)
@@ -12718,6 +13458,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 11.43 307.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b86b20d2-58a9-4a96-9ee2-6549cb408ecf")
+		(property "Reference" "Q14"
+			(at 3.81 308.6101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 3.81 306.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 6.35 305.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 6.35 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 11.43 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 11.43 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a860691c-eecf-4c71-9099-d2e907a2dde3")
+		)
+		(pin "2"
+			(uuid "8be10630-9e63-4539-b35e-32325e88bbe0")
+		)
+		(pin "1"
+			(uuid "6f7e5cee-c966-474d-bebe-4a0282337ccc")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 179.07 74.295 0)
 		(unit 1)
@@ -12777,6 +13601,91 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "#GND07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at -26.67 308.61 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd0e475a-27e9-495a-834b-173270be42ab")
+		(property "Reference" "Q10"
+			(at -19.05 309.8801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at -19.05 307.3401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at -21.59 306.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at -21.59 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at -26.67 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at -26.67 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e4b7e9-f5ad-48e9-861b-24bee8aa5080")
+		)
+		(pin "3"
+			(uuid "6b9bb04b-7fa0-4761-82f7-7f057c0f55c8")
+		)
+		(pin "2"
+			(uuid "add29718-ddea-4a54-b233-9f77ab8cda78")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -13007,143 +13916,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC817")
-		(at -63.5 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4f8d81f-28eb-4f2d-b728-233458235836")
-		(property "Reference" "Q7"
-			(at -58.42 238.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT5551"
-			(at -58.42 241.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at -58.42 241.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "/home/ostoja/spice_models/bjts/BC817-40.lib"
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "BC817-40"
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "is=62860a isc=187700a"
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2145"
-			(at -63.5 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f392e26-35c2-46c6-b3dc-76af1cdc62b0")
-		)
-		(pin "2"
-			(uuid "b77d8182-d5da-4953-a21f-daae7d983c88")
-		)
-		(pin "3"
-			(uuid "5e590d77-c4cb-4819-866c-2b5df8a7485d")
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -14057,6 +14829,90 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at -63.5 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3810731-7c65-4dd4-b09d-c19dbdc8043f")
+		(property "Reference" "Q12"
+			(at -55.88 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at -55.88 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at -58.42 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at -58.42 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at -63.5 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at -63.5 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2cb317ab-27f6-431a-a78d-5ad94e8d1507")
+		)
+		(pin "2"
+			(uuid "816098ff-c671-449d-8d48-8690fb1a6812")
+		)
+		(pin "1"
+			(uuid "6321f04c-9eca-42fb-aa53-64439b7dc767")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
