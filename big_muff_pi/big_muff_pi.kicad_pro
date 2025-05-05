@@ -466,7 +466,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "pedale"
+    ]
   },
   "meta": {
     "filename": "big_muff_pi.kicad_pro",
