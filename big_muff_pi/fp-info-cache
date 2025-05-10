@@ -1,4 +1,4 @@
-38429819239611
+41923808000521
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99547,6 +99547,13 @@ mounting hole 3.2mm m3 iso14580
 3
 1
 pedale
+TI logo
+
+
+0
+0
+0
+pedale
 big_muff_pi_front_plate
 
 
@@ -99567,6 +99574,13 @@ Through hole pin header THT 1x16 1.27mm single row
 0
 16
 16
+pedale
+bottom_plate
+
+
+0
+0
+0
 pedale
 floating_green_led
 

@@ -509,7 +509,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../top_plate.step",
+      "step": "../bottom_plate.step",
       "svg": "",
       "vrml": ""
     },
