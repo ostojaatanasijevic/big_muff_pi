@@ -14244,7 +14244,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c9009d58-ea57-4025-9a61-680d1f8f9b09")
 		(property "Reference" "J6"
 			(at 135.636 46.228 0)
