@@ -81,7 +81,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../bottom_plate.step"
 		(offset
-			(xyz 0 0 -6.5)
+			(xyz 0 0 -8)
 		)
 		(scale
 			(xyz 1 1 1)
