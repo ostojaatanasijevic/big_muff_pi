@@ -2955,404 +2955,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pedale:floating_green_led"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "floating_green_led"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "pedale:floating_green_led"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "floating_green_led_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pedale:floating_pot"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "floating_pot"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "pedale:floating_pot"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "floating_pot_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pedale:floating_red_led"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "floating_red_led"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "pedale:floating_red_led"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "floating_red_led_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "pedale:pedala_switch"
 			(pin_names
 				(offset 0)
@@ -4265,7 +3867,7 @@
 		)
 		(uuid ed94a182-88a7-4d52-82b6-a581a7ad4ab6)
 	)
-	(text "Mounting and estetics"
+	(text "Power supply filtering"
 		(exclude_from_sim no)
 		(at 15.494 85.344 0)
 		(effects
@@ -4444,12 +4046,6 @@
 		(uuid "555ad038-5e5b-48b4-9bbe-bac0b0b29519")
 	)
 	(junction
-		(at 35.56 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59803dcc-21cd-4150-9e5f-2b5f864a6eaa")
-	)
-	(junction
 		(at 232.41 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4576,12 +4172,6 @@
 		(uuid "bb060888-e5e2-43f9-9c37-85d1b8d88987")
 	)
 	(junction
-		(at 213.36 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc07c9e9-729b-4cad-9f99-7ee2810426f8")
-	)
-	(junction
 		(at 139.7 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4632,6 +4222,18 @@
 	(no_connect
 		(at 265.43 116.84)
 		(uuid "4dfef362-5b54-41a8-9078-114de8255d01")
+	)
+	(no_connect
+		(at 182.88 154.94)
+		(uuid "724ed7db-bb86-4254-b2ea-9d0ba25874f8")
+	)
+	(no_connect
+		(at 182.88 157.48)
+		(uuid "8bddd36c-5ebe-4d97-8d57-8504ef1c5a89")
+	)
+	(no_connect
+		(at 182.88 160.02)
+		(uuid "8de11570-fd52-4707-b85c-413300f10e79")
 	)
 	(wire
 		(pts
@@ -5845,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 138.43) (xy 213.36 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93895d92-cd98-4788-9ddc-92a7701dd57c")
-	)
-	(wire
-		(pts
 			(xy 213.36 142.24) (xy 213.36 138.43)
 		)
 		(stroke
@@ -6275,16 +5867,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 57.15) (xy 35.56 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4f7430-55e8-44f8-be7e-6fcf3cc2455a")
-	)
-	(wire
-		(pts
 			(xy 269.24 53.34) (xy 270.51 53.34)
 		)
 		(stroke
@@ -6505,16 +6087,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 57.15) (xy 35.56 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1babd70-969c-4f7c-957f-43094035c5ed")
-	)
-	(wire
-		(pts
 			(xy 179.07 69.215) (xy 179.07 74.295)
 		)
 		(stroke
@@ -6662,16 +6234,6 @@
 			(type default)
 		)
 		(uuid "fda0dd77-3255-403b-a2c2-794271f774f6")
-	)
-	(wire
-		(pts
-			(xy 213.36 133.35) (xy 218.44 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe33812b-9e51-40a0-9408-c6b2b90749de")
 	)
 	(global_label "FS_OUT"
 		(shape input)
@@ -7550,7 +7112,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 24.13 105.41 0)
+		(at 31.75 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7559,7 +7121,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c3764e9-1df8-4553-89ea-56bfbfbc7b81")
 		(property "Reference" "H3"
-			(at 26.67 104.14 0)
+			(at 34.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +7130,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.67 106.68 0)
+			(at 34.29 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +7139,7 @@
 			)
 		)
 		(property "Footprint" "pedale:M3_hole_with_spacer"
-			(at 24.13 105.41 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +7148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 105.41 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +7157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 105.41 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,70 +7612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pedale:floating_pot")
-		(at 238.125 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2317c595-02df-4578-ab56-d7996606b29d")
-		(property "Reference" "RV5"
-			(at 236.347 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "floating_pot"
-			(at 241.935 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "pedale:floating_pot"
-			(at 238.125 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.125 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 238.125 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "RV5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 143.51 194.31 0)
 		(unit 1)
@@ -8173,79 +7671,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "#GND018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pedale:floating_red_led")
-		(at 204.47 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "235ee107-5c6d-4976-9c42-790dbe1ec06c")
-		(property "Reference" "D9"
-			(at 207.01 95.6944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "floating_red_led"
-			(at 207.01 98.2344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pedale:floating_red_led"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9553,81 +8978,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pedale:floating_green_led")
-		(at 130.175 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c2203f7-4ae2-45f5-97d3-0d4ae403f8e2")
-		(property "Reference" "D8"
-			(at 132.715 37.2744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "floating_green_led"
-			(at 132.715 39.8144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pedale:floating_green_led"
-			(at 130.175 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.175 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 130.175 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 130.175 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 64.77 95.25 0)
+		(at 77.47 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9636,7 +8988,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cda1ac2-cf89-4030-a0ca-68e3854000e7")
 		(property "Reference" "SIM1"
-			(at 64.77 88.265 0)
+			(at 77.47 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +8997,7 @@
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
-			(at 64.77 100.965 0)
+			(at 77.47 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +9006,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen"
-			(at 64.77 95.25 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 95.25 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,7 +9024,7 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 64.77 95.25 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +9547,7 @@
 	(symbol
 		(lib_name "MountingHole_4")
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 105.41 0)
+		(at 77.47 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10204,7 +9556,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ff492b6-ed0b-4c0d-91eb-acbf29383bb6")
 		(property "Reference" "H5"
-			(at 67.31 104.14 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,7 +9565,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 106.68 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,7 +9574,7 @@
 			)
 		)
 		(property "Footprint" "pedale:M3_hole_with_spacer"
-			(at 64.77 105.41 0)
+			(at 77.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +9583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 105.41 0)
+			(at 77.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +9592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 105.41 0)
+			(at 77.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,7 +10532,7 @@
 	(symbol
 		(lib_name "MountingHole_3")
 		(lib_id "Mechanical:MountingHole")
-		(at 43.18 97.79 0)
+		(at 54.61 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11189,7 +10541,7 @@
 		(fields_autoplaced yes)
 		(uuid "7380b1a0-f8b2-466b-b83a-f01ec9a63e25")
 		(property "Reference" "H2"
-			(at 45.72 96.52 0)
+			(at 57.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,7 +10550,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 45.72 99.06 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +10559,7 @@
 			)
 		)
 		(property "Footprint" "pedale:M3_hole_with_spacer"
-			(at 43.18 97.79 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +10568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 97.79 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +10577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 97.79 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +11491,7 @@
 	(symbol
 		(lib_name "MountingHole_2")
 		(lib_id "Mechanical:MountingHole")
-		(at 24.13 97.79 0)
+		(at 31.75 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12148,7 +11500,7 @@
 		(fields_autoplaced yes)
 		(uuid "89b32dda-3684-4232-b25f-42934ae80d4f")
 		(property "Reference" "H1"
-			(at 26.67 96.52 0)
+			(at 34.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +11509,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.67 99.06 0)
+			(at 34.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12166,7 +11518,7 @@
 			)
 		)
 		(property "Footprint" "pedale:M3_hole_with_spacer"
-			(at 24.13 97.79 0)
+			(at 31.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,7 +11527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 97.79 0)
+			(at 31.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12184,7 +11536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 97.79 0)
+			(at 31.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12196,70 +11548,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pedale:floating_pot")
-		(at 130.175 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e554fae-6323-4d93-b17f-f48a700f027c")
-		(property "Reference" "RV4"
-			(at 133.985 31.0514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "floating_pot"
-			(at 133.985 33.5914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pedale:floating_pot"
-			(at 130.175 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.175 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 130.175 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -13042,7 +12330,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 43.18 105.41 0)
+		(at 54.61 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13051,7 +12339,7 @@
 		(fields_autoplaced yes)
 		(uuid "a659e5e8-81b3-4c67-aafb-95f68da7b68f")
 		(property "Reference" "H4"
-			(at 45.72 104.14 0)
+			(at 57.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13060,7 +12348,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 45.72 106.68 0)
+			(at 57.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13069,7 +12357,7 @@
 			)
 		)
 		(property "Footprint" "pedale:M3_hole_with_spacer"
-			(at 43.18 105.41 0)
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13078,7 +12366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 105.41 0)
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13087,7 +12375,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 105.41 0)
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13933,7 +13221,7 @@
 	)
 	(symbol
 		(lib_id "pedale:big_muff_pi_front_panel")
-		(at 24.13 90.17 0)
+		(at 31.75 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13942,7 +13230,7 @@
 		(fields_autoplaced yes)
 		(uuid "c556fe22-fd91-42e1-943e-7b9e7132d212")
 		(property "Reference" "P1"
-			(at 26.67 88.8999 0)
+			(at 34.29 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13950,8 +13238,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "big_muff_pi_front_panel"
-			(at 26.67 91.4399 0)
+		(property "Value" "front_panel"
+			(at 34.29 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13959,8 +13247,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pedale:big_muff_pi_front_plate"
-			(at 24.13 90.17 0)
+		(property "Footprint" "pedale:front_plate"
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +13257,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 90.17 0)
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13978,7 +13266,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 24.13 90.17 0)
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14062,7 +13350,7 @@
 	)
 	(symbol
 		(lib_id "pedale:big_muff_pi_front_panel")
-		(at 76.2 90.17 0)
+		(at 54.61 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14071,7 +13359,7 @@
 		(fields_autoplaced yes)
 		(uuid "c59ef342-cb20-4720-abb0-d20d0834640f")
 		(property "Reference" "P2"
-			(at 78.74 88.8999 0)
+			(at 57.15 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14080,7 +13368,7 @@
 			)
 		)
 		(property "Value" "bottom_panel"
-			(at 78.74 91.4399 0)
+			(at 57.15 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14089,7 +13377,7 @@
 			)
 		)
 		(property "Footprint" "pedale:bottom_plate"
-			(at 76.2 90.17 0)
+			(at 54.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14098,7 +13386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 90.17 0)
+			(at 54.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14107,7 +13395,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 76.2 90.17 0)
+			(at 54.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15391,70 +14679,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pedale:floating_pot")
-		(at 204.47 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e795482b-fdf7-4029-b34f-fdc6cd84574b")
-		(property "Reference" "RV6"
-			(at 202.692 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "floating_pot"
-			(at 208.28 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "pedale:floating_pot"
-			(at 204.47 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 204.47 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "RV6")
 					(unit 1)
 				)
 			)

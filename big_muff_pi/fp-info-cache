@@ -1,4 +1,4 @@
-43671301614017
+45418602537296
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99630,6 +99630,13 @@ switch DPDT
 0
 6
 6
+pedale
+front_plate
+
+
+0
+0
+0
 pedale
 green_led
 
