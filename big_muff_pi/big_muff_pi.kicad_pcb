@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/c86d5b8b-d6e7-42de-a5c6-4ad4a5080bf6")
+		(path "/c9009d58-ea57-4025-9a61-680d1f8f9b09")
 		(sheetname "/")
 		(sheetfile "big_muff_pi.kicad_sch")
 		(attr through_hole)
