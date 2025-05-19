@@ -1,4 +1,4 @@
-40176820126035
+45419618036324
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99554,6 +99554,13 @@ TI logo
 0
 0
 pedale
+TI logo large
+
+
+0
+0
+0
+pedale
 big_muff_pi_front_plate
 
 
@@ -99574,6 +99581,13 @@ Through hole pin header THT 1x16 1.27mm single row
 0
 16
 16
+pedale
+bottom_plate
+
+
+0
+0
+0
 pedale
 floating_green_led
 
@@ -99617,6 +99631,13 @@ switch DPDT
 6
 6
 pedale
+front_plate
+
+
+0
+0
+0
+pedale
 green_led
 
 
@@ -99656,8 +99677,8 @@ top_plate_pot
 Potentiometer, vertical, bottom-adjust, single slot, Bourns 3314R-1, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
 Potentiometer vertical hole Bourns 3314R-1
 0
-3
-3
+4
+4
 pedale
 top_screw
 
