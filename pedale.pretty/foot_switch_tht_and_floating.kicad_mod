@@ -56,8 +56,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -14.2 -13.2)
-		(end 14.2 13.2)
+		(start -9.2 -7.7)
+		(end 9.2 7.7)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -65,6 +65,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0514b61e-4766-4d3c-a8a4-ae149dea8867")
+	)
+	(fp_rect
+		(start -9 -7.5)
+		(end 9 7.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e23f2ea2-78b5-4e63-b9f5-c06ba0aeeb10")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.1 -10.875 0)
@@ -79,9 +90,9 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at -7.1 -5 180)
-		(size 8.8 11.6)
+		(size 8.8 10.6)
 		(drill oval 2 4
-			(offset 2.4 2.2)
+			(offset 2.4 1.7)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -91,9 +102,9 @@
 	)
 	(pad "2" thru_hole roundrect
 		(at 0 -5)
-		(size 4 11.5)
+		(size 4 10.5)
 		(drill oval 2 4
-			(offset 0 -2.25)
+			(offset 0 -1.75)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -103,9 +114,9 @@
 	)
 	(pad "3" thru_hole roundrect
 		(at 7.1 -5 180)
-		(size 8.9 11.5)
+		(size 8.9 10.5)
 		(drill oval 2 4
-			(offset -2.45 2.25)
+			(offset -2.45 1.75)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -115,9 +126,9 @@
 	)
 	(pad "4" thru_hole roundrect
 		(at 7.1 5)
-		(size 8.9 11.5)
+		(size 8.9 10.5)
 		(drill oval 2 4
-			(offset 2.45 2.25)
+			(offset 2.45 1.75)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -127,9 +138,9 @@
 	)
 	(pad "5" thru_hole roundrect
 		(at 0 5)
-		(size 4 11.5)
+		(size 4 10.5)
 		(drill oval 2 4
-			(offset 0 2.25)
+			(offset 0 1.75)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -139,9 +150,9 @@
 	)
 	(pad "6" thru_hole roundrect
 		(at -7.1 5)
-		(size 8.9 11.5)
+		(size 8.9 10.5)
 		(drill oval 2 4
-			(offset -2.45 2.25)
+			(offset -2.45 1.75)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
