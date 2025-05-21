@@ -1,4 +1,4 @@
-45421281113656
+47170325793100
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99625,6 +99625,13 @@ switch DPDT
 6
 pedale
 foot_switch_tht_and_floating
+C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+pedale
+foot_switch_tht_no_pad
 C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
 switch DPDT
 0
