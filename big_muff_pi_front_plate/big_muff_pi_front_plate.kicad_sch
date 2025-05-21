@@ -2035,7 +2035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 40.64 55.88 0)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
 			(at 236.22 144.78 0)
 			(effects
 				(font
@@ -2366,7 +2366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0V reference potential for simulation"
 			(at 236.22 144.78 0)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 236.22 140.97 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 40.64 33.02 0)
 			(effects
 				(font
@@ -2918,7 +2918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 76.2 113.03 0)
 			(effects
 				(font
@@ -3243,7 +3243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -3637,7 +3637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 248.92 137.16 0)
 			(effects
 				(font
@@ -3950,7 +3950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 40.64 77.47 0)
 			(effects
 				(font
