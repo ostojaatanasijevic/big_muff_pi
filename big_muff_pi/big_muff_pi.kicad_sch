@@ -7314,7 +7314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "pedale:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -8170,7 +8170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "pedale:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 182.88 160.02 0)
 			(effects
 				(font
@@ -9576,7 +9576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "pedale:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 264.16 53.34 0)
 			(effects
 				(font
@@ -9764,7 +9764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "pedale:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -14022,7 +14022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "pedale:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 254 134.62 0)
 			(effects
 				(font
@@ -14428,7 +14428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "pedale:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 99.06 139.7 0)
 			(effects
 				(font
@@ -14539,7 +14539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "pedale:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 172.72 125.73 0)
 			(effects
 				(font
