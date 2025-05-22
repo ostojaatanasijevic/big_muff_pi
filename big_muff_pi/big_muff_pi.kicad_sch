@@ -13493,83 +13493,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbf61720-0e9a-48c6-ab8f-9d36e0664943")
-		(property "Reference" "R25"
-			(at 100.584 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 101.346 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.282 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 99.06 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57129560-baf4-4eb5-8a69-c1488d2fc531")
-		)
-		(pin "2"
-			(uuid "9c2ef9e0-1d81-4315-b8e1-d092a07b2731")
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 246.38 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14324,6 +14247,83 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 99.06 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de28bfd8-1dbe-473c-b16b-2298575b8511")
+		(property "Reference" "R25"
+			(at 101.6 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 101.6 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 97.282 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 99.06 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b56fc7e5-4c72-4acb-8150-284daad6b87f")
+		)
+		(pin "2"
+			(uuid "15e7b0f4-a190-4d88-9cbb-001ebfacd974")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 190.5 17.78 270)
 		(mirror x)
 		(unit 1)
@@ -14619,6 +14619,83 @@
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "J6")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee79680f-4589-4739-9451-515f552220d8")
+		(property "Reference" "R26"
+			(at 251.46 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 251.46 120.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 255.778 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 254 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e9beb61-f8f3-4994-ae51-731e30461c07")
+		)
+		(pin "2"
+			(uuid "8255c815-fdf2-40a1-8e70-6c44c789040b")
+		)
+		(instances
+			(project "big_muff_pi"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "R26")
+					(unit 1)
 				)
 			)
 		)
@@ -15066,83 +15143,6 @@
 			(project "big_muff_pi"
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc3f992b-96e0-4afa-9d76-ae6f9800ad44")
-		(property "Reference" "R26"
-			(at 252.476 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 251.968 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 255.778 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 254 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef25755f-3a68-4ef6-9547-aab0cdd81b05")
-		)
-		(pin "2"
-			(uuid "80b33c7d-fb22-4020-8604-1ecb487a4c36")
-		)
-		(instances
-			(project "big_muff_pi"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "R26")
 					(unit 1)
 				)
 			)

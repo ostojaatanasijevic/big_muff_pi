@@ -2917,7 +2917,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bcebd3c8-0340-4a42-ba7e-41903b666b21")
@@ -2954,7 +2954,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2968,7 +2968,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/fc3f992b-96e0-4afa-9d76-ae6f9800ad44")
+		(path "/ee79680f-4589-4739-9451-515f552220d8")
 		(sheetname "/")
 		(sheetfile "big_muff_pi.kicad_sch")
 		(attr smd)
@@ -4191,7 +4191,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/62790576-efde-463e-927c-33bc8c635e15")
+		(path "/32431c08-9509-45de-8e82-d952f3606215")
 		(sheetname "/")
 		(sheetfile "big_muff_pi.kicad_sch")
 		(attr through_hole)
@@ -17062,7 +17062,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c7bad6bb-7313-4d99-8eb7-0a6a0c62fdfd")
@@ -17099,7 +17099,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17113,7 +17113,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/cbf61720-0e9a-48c6-ab8f-9d36e0664943")
+		(path "/de28bfd8-1dbe-473c-b16b-2298575b8511")
 		(sheetname "/")
 		(sheetfile "big_muff_pi.kicad_sch")
 		(attr smd)
