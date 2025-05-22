@@ -4438,6 +4438,42 @@
 			)
 		)
 	)
+	(gr_text "100 kOhm lin"
+		(at 94.9 89.8 0)
+		(layer "B.SilkS")
+		(uuid "36370a53-e939-42e3-9259-3db946ebcbcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "100 kOhm lin"
+		(at 116.9 79.5 0)
+		(layer "B.SilkS")
+		(uuid "773d1ca4-ffcd-470a-a59b-cf9bf624aa93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "100 kOhm lin"
+		(at 73.1 79.5 0)
+		(layer "B.SilkS")
+		(uuid "998a1fd2-1859-4ec7-be3a-495b60d8b4e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(via
 		(at 85.6 69)
 		(size 0.8)
