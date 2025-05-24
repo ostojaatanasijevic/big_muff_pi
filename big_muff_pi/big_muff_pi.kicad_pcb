@@ -1824,13 +1824,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "3d7c6e6d-997f-49ee-aec5-9ae53c369291")
+			(uuid "61f5b188-b554-4d5d-bb9f-d02bd5eaa181")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "3d7c6e6d-997f-49ee-aec5-9ae53c369291")
+			(uuid "95423a6b-8816-46d9-8838-205efe79c59f")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -2305,115 +2305,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pedale:floating_red_led"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "0d46343e-d450-4f85-943d-d8b7cdf698ed")
-		(at 106 117)
-		(property "Reference" "D9"
-			(at 0 -0.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "60d7b963-d8cb-4bf7-a46d-6f079590cf29")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "floating_red_led"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "aa656089-5fa1-4f89-96dd-c576955af664")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "041d2c8d-bf2d-4298-bb35-d54e35685209")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16ef48a4-53a7-4179-ad26-b46675e76ef0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fda32107-2de3-4419-873f-a170fd3450ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(sheetname "/")
-		(sheetfile "big_muff_pi.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.1 -0.1)
-			(end 0.1 0.1)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "B.CrtYd")
-			(uuid "4e64229e-6edb-4935-86dc-0e1d8cab6114")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "3289c209-b53a-45f2-82a5-240747edf134")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pedale.pretty/LED 3mm, Red, Thru-hole, Right Angle PCB 1.stp"
-			(offset
-				(xyz 0 -2 23.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 90 -0 -0)
 			)
 		)
 	)
@@ -3435,13 +3326,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "ad8649f4-d63a-42ce-ac31-1caf9dab1c6c")
+			(uuid "a691f936-ef38-406c-9d22-db3db42f2acb")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "ad8649f4-d63a-42ce-ac31-1caf9dab1c6c")
+			(uuid "60d92018-ae8f-4ca5-963a-fb50a601f5f2")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -4144,6 +4035,7 @@
 		(property "Reference" "J6"
 			(at 1.27 -6.1 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5fe63386-24f6-4372-b65f-41e2c67b706a")
 			(effects
 				(font
@@ -5692,13 +5584,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "ce92db99-d591-49fa-bb63-b983599cf09b")
+			(uuid "3a78b14b-ec21-4ee6-be91-cdc60b860a23")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "ce92db99-d591-49fa-bb63-b983599cf09b")
+			(uuid "b7f4ee00-5b7a-4a92-9527-7df1e72b2ae4")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -6191,13 +6083,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "6d602623-9a5e-4756-9a14-5e704adf27b3")
+			(uuid "910d01e4-5820-4990-b886-4a53b21ffb1e")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "6d602623-9a5e-4756-9a14-5e704adf27b3")
+			(uuid "a0fb09d5-774f-4306-b711-9a3261899b7f")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -18236,13 +18128,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "89dae18b-311d-4293-be95-d9a0f0760961")
+			(uuid "37b9bf6f-1c9c-4707-bb30-28dc36d94b8a")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "89dae18b-311d-4293-be95-d9a0f0760961")
+			(uuid "ae2da623-e47b-4765-9247-a0588e85c4e4")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -20861,115 +20753,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pedale:floating_green_led"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "f031a9cf-aded-4960-a919-d2c53997dff6")
-		(at 74 117)
-		(property "Reference" "D8"
-			(at 0 -0.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "64e46e47-bf72-406f-b49b-e918a3b6907e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "floating_green_led"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "52dcf279-2e16-40c2-8737-b49da945867f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1d426e5-62cd-4101-867a-6026620caf90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a80cf49d-bf2f-42a4-9fc8-7f9781f245f7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73df5a62-32e0-4578-872c-6c3c1674bd5d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(sheetname "/")
-		(sheetfile "big_muff_pi.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.1 -0.1)
-			(end 0.1 0.1)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "B.CrtYd")
-			(uuid "adf353d8-e780-4d52-9494-fc8ef36376b7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "cc687915-7e8a-4486-bdb1-38c39906e2a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pedale.pretty/LED 3mm, Green, Thru-hole, Right Angle PCB 1.stp"
-			(offset
-				(xyz 0 -2 23.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 90 -0 -0)
 			)
 		)
 	)
